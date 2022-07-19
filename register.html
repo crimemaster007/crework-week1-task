@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
     <div
-      class="login-form-container"
+      class="registration-form-container"
       style="
         display: flex;
         /* justify-content: center;
         align-items: center; */
         /* text-align: center; */
-        margin-top: 60px;
+        margin-top: 30px;
         margin-left: 500px;
       "
     >
@@ -28,12 +28,12 @@
             align-items: center;
           "
         >
-          <img src="./img/icons8-login-100.png" alt="login logo" />
+          <img src="./img/icons8-sign-up-64.png" alt="login logo" />
         </div>
         <br />
         <br />
         <div
-          class="login-logo-button"
+          class="Register-logo-button"
           style="
             display: flex;
             justify-content: center;
@@ -41,13 +41,36 @@
             align-items: center;
             color: black;
             font-weight: 300;
-            font-size: 50px;
+            font-size: 33px;
           "
         >
-          LOG IN
+          REGISTER
         </div>
-        <br />
+    
         <form action="">
+          <div class="name-form-container" style="width: 500px">
+            <div
+              class="name-container"
+              style="margin-left: 40px; font-size: 19px"
+            >
+              <label for="name">Name</label>
+            </div>
+            <div
+              class="name-input-container"
+              style="margin-left: 40px; margin-top: 8.5px"
+            >
+              <input
+                size="55"
+                type="name"
+                name="name"
+                id="name"
+                width="100px"
+                placeholder="Enter Name"
+                style="font-size: 0.875rem; font-weight: 400; height: 30px"
+              />
+            </div>
+          </div>
+          <br />
           <div class="login-form-container" style="width: 500px">
             <div
               class="email-container"
@@ -93,9 +116,32 @@
               />
             </div>
           </div>
+          <br>
+          <div class="password-form-container" style="width: 500px">
+            <div
+              class="password-container"
+              style="margin-left: 40px; font-size: 19px"
+            >
+              <label for="confirmPassword">Confirm Password</label>
+            </div>
+            <div
+              class="password-input-container"
+              style="margin-left: 40px; margin-top: 8.5px"
+            >
+              <input
+                size="55"
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                width="100px"
+                placeholder="Confirm Password"
+                style="font-size: 0.875rem; font-weight: 400; height: 30px"
+              />
+            </div>
+          </div>
 
           <br />
-              <div class="login-btn">
+              <div class="Register-btn">
             <button type="submit" style="display: flex;
               justify-content: center;
               height: 50px;
@@ -108,36 +154,21 @@
               word-spacing: 10px;
               font-size: 15px;
               ">
-            LOGIN
+            REGISTER
             </button>
           </div>
-          <br>
-          <div
-            class="google-button"
-            style="
-              display: flex;
-              justify-content: center;
-              height: 50px;
-              align-items: center;
-              background-color: #e74c3c;
-              color: white;
-              width: 435px;
-              margin-left: 41px;
-            "
-          >
-            <a style="color: white" href="">LOGIN WITH GOOGLE</a>
-          </div>
+          
           <br>
         </form>
            <div class="back-to-register-container" style="margin-left:45px;display: inline-block; font-size: 18px;" >
-            No Account? <a href="./register.html">Register</a>
+            Have An Account? <a href="./login.html">Login</a>
            </div>
-           <div class="forget-password-container" style="margin-left:125px;display: inline-block; font-size: 18px;" >
-          <a href="https://www.scrolldroll.com/wp-content/uploads/2022/01/tu-kar-kya-raha-hai-yeh-ashneer-shark-tank-india-meme-templates.png" target="_blank">Forgot Password?</a>
+           <div class="forget-password-container" style="margin-left:165px;display: inline-block; font-size: 18px;" >
+          <a href="./index.html" target="_blank">Back</a>
            </div>
       </div>
 
       </div>
     </div>
-  </body>
+</body>
 </html>
